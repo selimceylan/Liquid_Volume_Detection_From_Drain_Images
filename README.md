@@ -9,12 +9,14 @@ The architecture of Mask R-CNN:
 
 Using Mask R-CNN pixel-wise masks for every object in an image can automatically segment and construct.\
 Mask R-CNN was built using Faster R-CNN. While Faster R-CNN has 2 outputs for each candidate object, a class label and a bounding-box offset, Mask R-CNN is the addition of a third branch that outputs the object mask.
+
 ## How to Detect Liquid Volume in Drain 
-Our model detect blood part and empty part separately in drain and gives masks of these detections. The software takes total volume of drain as an input for calculate this:\
+Our model detect blood part and empty part separately in drain and gives masks of these detections. Total pixel sizes of these masks saved and sum of these saved as total_pixels_of_drain. The software takes total volume of drain ("total_volume_in_ml") as an input for calculate the blood volume in milliliter.\
 blood_mask_pixels + empty_mask_pixels = total_pixels_of_drain\
 blood_volume_in_ml = (blood_mask_pixels * total_volume_in_ml) / total_pixels_of_drain
+
 ## Restrictions 
-When these conditions provided, model detect volume with %1 error rate.
+When these conditions provided, model measures volume with %1 error rate.
 - Drain position should be on the middle of image.
 - Drain and camera distance should be roughly arm distance.
 - User should know the total volume of drain.
