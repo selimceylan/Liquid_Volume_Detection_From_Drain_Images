@@ -35,7 +35,7 @@ Result page with good result.
 ![good_result](https://user-images.githubusercontent.com/86148100/167582105-25ae3a31-78c2-46d0-9ac3-15c49b184467.png)
 
 ## Fail Results
-when restrictions are not taken into account, this results may occurs. In this image model failed because drain placed too bottom in image.
+When restrictions are not taken into account, this results may occurs. In this image model failed because drain placed too bottom in image.
 ![bad_result_position](https://user-images.githubusercontent.com/86148100/167601362-0a8e881f-13b9-4447-b52b-2c3070066c14.jpeg)
 
 In this image, empty part of drain doesn't seems exactly.
