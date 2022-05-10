@@ -7,7 +7,6 @@ tensorflow==1.15
 keras==2.1.6
 opencv-python
 scikit-image==0.16.2
-imageio[pyav]
 streamlit
 h5py==2.10.0
 Flask==2.0.3
