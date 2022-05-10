@@ -27,11 +27,19 @@ When these conditions provided, model measures volume with %3 error rate.
 - Model can work independent from kind of drain, only total volume needed.
 - Background of the drain images doesn't change the result. 
 
-## Usage with network
+## Usage with Network
 Streamlit api code (streamlit_app.py) added to use the model on web. Model path must adjusted in code, image path will be taken from user. Last result displays on web and volume exists at top right side of image.
-![main](https://user-images.githubusercontent.com/86148100/167581118-1c27de41-f0a3-46de-85f7-4c2651956881.png)
+![main](https://user-images.githubusercontent.com/86148100/167582038-cfa4b9e8-2fd6-4287-822e-f369cbbbe7d8.png)
 
 Result page with good result.
+![good_result](https://user-images.githubusercontent.com/86148100/167582105-25ae3a31-78c2-46d0-9ac3-15c49b184467.png)
+
+## Fail Results
+when restrictions are not taken into account, this results may occurs. In this image model failed because drain placed too bottom in image.
+![bad_result_position](https://user-images.githubusercontent.com/86148100/167601362-0a8e881f-13b9-4447-b52b-2c3070066c14.jpeg)
+
+In this image, empty part of drain doesn't seems exactly.
+![bad_result_finger](https://user-images.githubusercontent.com/86148100/167601594-1ab64490-3b22-4d43-af36-b15cc19318a4.jpeg)
 
 
 ## Citation
