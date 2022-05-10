@@ -36,10 +36,14 @@ Result page with good result.
 
 ## Fail Results
 When restrictions are not taken into account, this results may occurs. In this image model failed because drain placed too bottom in image.\
-![bad_result_position_new](https://user-images.githubusercontent.com/86148100/167604224-5903a784-97a6-4b63-ac0a-50ea10446c6a.jpeg)
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/86148100/167604224-5903a784-97a6-4b63-ac0a-50ea10446c6a.jpeg">
+</p>
 
 In this image, empty part of drain doesn't seems exactly.\
-![bad_result_finger_new](https://user-images.githubusercontent.com/86148100/167603947-327f7f33-f999-410e-a536-d51f725e555f.jpeg)
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/86148100/167603947-327f7f33-f999-410e-a536-d51f725e555f.jpeg">
+</p>
 
 ## Citation
 Use this bibtex to cite this repository:
