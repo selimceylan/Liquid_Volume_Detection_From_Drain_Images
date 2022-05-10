@@ -12,7 +12,6 @@ def main():
 
     image_file = st.file_uploader("Upload An Image",type=['png','jpeg','jpg'])
     total_volume = st.number_input("Enter the total volume of drain",min_value=50,max_value=1000)
-# DEMO_IMAGE = "C:\\Users\\slmcy\\Desktop\\Graduation_Project\\First_Train_Results\\Test_100ml\\50ml2.jpg"
 
     if image_file is not None:
         with open(image_file.name, mode="wb") as f:
