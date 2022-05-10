@@ -28,7 +28,7 @@ When these conditions provided, model measures volume with %3 error rate.
 - Background of the drain images doesn't change the result. 
 
 ## Usage with Network
-Streamlit api code (streamlit_app.py) added to use the model on web. Model path must adjusted in code, image path will be taken from user. Last result displays on web and volume exists at top right side of image.
+Streamlit api code (streamlit_app.py) added to use the model on web. Model path must adjusted in code, image path will be taken from user. Last result displays on web and volume exists at top left side of image.
 ![main](https://user-images.githubusercontent.com/86148100/167582038-cfa4b9e8-2fd6-4287-822e-f369cbbbe7d8.png)
 
 Result page with good result.
