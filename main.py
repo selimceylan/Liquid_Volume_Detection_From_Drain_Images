@@ -18,8 +18,8 @@ def upload_file():
         file1 = request.files['file1']
         path = os.path.join(app.config['UPLOAD_FOLDER'], file1.filename)
         file1.save(path)
-        CUSTOM_MODEL_PATH = "C:\\Users\\slmcy\\Desktop\\Graduation_Project\\First_Train_Results\\logs2\\drain20211219T1936\\mask_rcnn_drain_0012.h5"
-        MODEL_DIR = "C:\\Users\\slmcy\\Desktop\\Graduation_Project\\First_Train_Results\\logs2\\drain20211219T1936"
+        CUSTOM_MODEL_PATH = "..\\drain20211219T1936\\mask_rcnn_drain_0012.h5"
+        MODEL_DIR = "..\\logs2\\drain20211219T1936"
         IMAGE_DIR = path
         K.clear_session()
         img = Inference(CUSTOM_MODEL_PATH, MODEL_DIR, IMAGE_DIR)
@@ -37,16 +37,6 @@ def upload_file():
       <input type="submit">
     </form>
     '''
-
-
-# @app.route("/image")
-# def processimage():
-#     CUSTOM_MODEL_PATH = "C:\\Users\\slmcy\\Desktop\\Graduation_Project\\First_Train_Results\\logs2\\drain20211219T1936\\mask_rcnn_drain_0012.h5"
-#     MODEL_DIR = "C:\\Users\\slmcy\\Desktop\\Graduation_Project\\Train_Results_drain2\\drain20220115T1937"
-#     IMAGE_DIR = "./upload/photo5949750180502943546.jpg"
-#     img = Inference(CUSTOM_MODEL_PATH,MODEL_DIR,IMAGE_DIR)
-#     cv2.imwrite("./upload/result.jpg",img)
-#     return send_file("./upload/result.jpg", mimetype='image/gif')
 
 
 if __name__ == '__main__':
