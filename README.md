@@ -1,4 +1,4 @@
-# Liquid_Volume_Detection_From_Drain_Images
+# Liquid Volume Detection From Drain Images
 Liquid volume detection code with Mask R-CNN on Keras and Tensorflow. This project uses the mask pixels of objects for compute liquid volumes. Thanks to Mask R-CNN, masks of objects can be obtained easily.
 
 ## Mask R-CNN for Object Detection and Segmentation
