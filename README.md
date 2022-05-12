@@ -35,7 +35,7 @@ Result page with good result.
 ![good_result](https://user-images.githubusercontent.com/86148100/167582105-25ae3a31-78c2-46d0-9ac3-15c49b184467.png)
 
 ## Fail Results
-When restrictions are not taken into account, this results may occurs. In this image model failed because drain placed too bottom in image.
+When restrictions are not taken into account, this results may occurs. In this image model failed because drain holded at bottom.
 <p align="center">
   <img src="https://user-images.githubusercontent.com/86148100/167604224-5903a784-97a6-4b63-ac0a-50ea10446c6a.jpeg">
 </p>
